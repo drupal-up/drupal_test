@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # delete .git folder
-chmod 777 -R .git
+chmod -R 777 .git
 rm -R .git
 
 # set project name
