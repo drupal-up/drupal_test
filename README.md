@@ -26,5 +26,5 @@ docker-compose up -d
 ### Install drupal
 
 ```
-docker-compose up -d
+docker exec -it PROJECT_NAME_php scripts/docker/drupal_instance_install.sh
 ```
